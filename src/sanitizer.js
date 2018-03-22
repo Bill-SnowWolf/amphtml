@@ -363,6 +363,7 @@ export function isValidAttr(tagName, attrName, attrValue) {
     return false;
   }
 
+  // Temporarily disable this validation to allow inline style.
   // Inline styles are not allowed.
   if (attrName == 'style') {
     return false;
