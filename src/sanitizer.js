@@ -365,9 +365,9 @@ export function isValidAttr(tagName, attrName, attrValue) {
 
   // Temporarily disable this validation to allow inline style.
   // Inline styles are not allowed.
-  if (attrName == 'style') {
-    return false;
-  }
+  // if (attrName == 'style') {
+  //   return false;
+  // }
 
   // See validator-main.protoascii
   // https://github.com/ampproject/amphtml/blob/master/validator/validator-main.protoascii
